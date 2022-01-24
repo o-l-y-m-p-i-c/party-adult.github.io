@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Sen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100%;
+}
+body{
+    background-color: #000000;
+    background-image: url('../img/bg.jpg');
+    /* background-size: contain; */
+    min-height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.adult-party{
+    min-height:100vh;
+}
+.adult-party-wrap{
+    margin: 0 auto;
+    width: 764px;
+    max-width: 100%;
+    padding:336px 20px 96px;
+    min-height: inherit;
+    display: grid;
+    /* flex-direction:column; */
+    /* align-content: flex-end; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* img */
+
+
+.adult-party__img-wrap{
+    margin-bottom: 46px;
+}
+.adult-party-img{
+    max-width: 100%;
+}
+
+
+/* content */
+.adult-party__content{
+    margin-bottom:27px;
+}
+.adult-party__content-paragraph{
+    margin: 0;
+    padding: 0;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.adult-party__content-paragraph strong{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+
+/* content end */
+
+
+
+
+
+
+
+/* form */
+
+
+/* input */
+.adult-party__form-wrap{
+    margin-top: 23px;
+}
+.adult-party__input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    
+    width: 100%;
+    max-width: 565px;   
+    border: unset;
+    padding: 16px 61px;
+    color: #000000;
+    border-radius: 6px;
+    background-color: #ffffff;
+    outline: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+}
+.adult-party__input::placeholder  {
+    color: #000000;
+    opacity: 1;
+}
+/* btn */
+.adult-party__form-btn-wrap{
+    margin-top:40px;
+}
+.party-btn{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    padding: 16px 58px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #8656AC;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    display:inline-block;
+    color: #ffffff;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* form end */
+
+
+
+.adult-party__sorry-paragraph{
+    width:100%;
+    max-width:658px;
+    margin: 0 auto;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* 3rd page */
+
+.adult-party__sorry-btn-wrap{
+    margin-top:56px;
+}
+.adult-party__sorry-wrap{
+    display: grid;
+    align-content: flex-end;
+    flex: 0 0 auto;
+}
+.adult-party__sorry{
+    flex: 0 0 auto;
+}
