@@ -23,10 +23,10 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
 }
-.adult-party{
+.adult-party , .thank-u{
     min-height:100vh;
 }
-.adult-party-wrap{
+.adult-party-wrap, .thank-u-wrap{
     margin: 0 auto;
     width: 764px;
     max-width: 100%;
