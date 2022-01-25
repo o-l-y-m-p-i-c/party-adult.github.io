@@ -23,6 +23,12 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
 }
+.adult-party-bg3{
+    background-image: url('../img/bg3.jpg');
+    min-height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 .adult-party , .thank-u{
     min-height:100vh;
 }
@@ -176,9 +182,4 @@ body{
     margin-top: 264px;
     display: grid;
     align-content: flex-end;
-}
-
-/* thank u */
-.thank-u__content{
-    margin-top: 150px;
 }
