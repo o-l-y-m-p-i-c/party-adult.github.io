@@ -9,8 +9,16 @@ html{
 }
 body{
     background-color: #000000;
+    
+}
+.adult-party-bg1{
     background-image: url('../img/bg.jpg');
-    /* background-size: contain; */
+    min-height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.adult-party-bg2{
+    background-image: url('../img/bg2.jpg');
     min-height: 100%;
     background-position: top center;
     background-repeat: no-repeat;
@@ -157,10 +165,11 @@ body{
     margin-top:56px;
 }
 .adult-party__sorry-wrap{
+    margin-top: 264px;
     display: grid;
     align-content: flex-end;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
 }
 .adult-party__sorry{
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
 }
