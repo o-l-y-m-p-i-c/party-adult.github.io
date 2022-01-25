@@ -38,7 +38,15 @@ body{
     box-sizing: border-box;
     text-align: center;
 }
-
+.adult-party__title{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom:50px;
+}
 /* img */
 
 
@@ -54,7 +62,7 @@ body{
 .adult-party__content{
     margin-bottom:27px;
 }
-.adult-party__content-paragraph{
+.adult-party__content-paragraph, .adult-party__paragraph{
     margin: 0;
     padding: 0;
     font-family: Sen;
@@ -161,15 +169,16 @@ body{
 
 /* 3rd page */
 
-.adult-party__sorry-btn-wrap{
+.adult-party__sorry-btn-wrap, .thank-u__btn-wrap{
     margin-top:56px;
 }
 .adult-party__sorry-wrap{
     margin-top: 264px;
     display: grid;
     align-content: flex-end;
-    /* flex: 0 0 auto; */
 }
-.adult-party__sorry{
-    /* flex: 0 0 auto; */
+
+/* thank u */
+.thank-u__content{
+    margin-top: 150px;
 }
